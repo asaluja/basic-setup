@@ -9,7 +9,7 @@ fi
 #PS1="\[\e[36;1m\]\h:\[\e[32;1m\]\w$ \[\e[0m\]"
 PS1="\[\033[35m\]\t\[\033[m\]-\[\033[36m\]\u\[\033[m\]@\[\033[32m\]\h:\[\033[33;1m\]\w\[\033[m\]\$ "
  
-# Set the default editor to vim.
+# Set the default editor to emacs.
 export EDITOR=emacs
  
 # Avoid succesive duplicates in the bash command history.
